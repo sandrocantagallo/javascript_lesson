@@ -1,0 +1,38 @@
+/**
+ * connettivo logico
+ * 
+ *  and in java si scrive &&
+ * 
+ *  serve per connettere più enunciati insieme
+ * 
+ * altro connettivo logico è
+ * 
+ * or in java ||
+ * 
+ * ultimo operatore logico è NOT in java come si esprime? forse con il simbolo !
+ * 
+ * ci sono anche altri operatori ma per il momento ci concentriamo su questi
+ */
+
+|   A       |   B       |   A AND B |
+|   VERO    |   VERO    |   VERO    |
+|   FALSO   |   VERO    |   FALSO   |
+|   VERO    |   FALSO   |   FALSO   |
+|   FALSO   |   FALSO   |   FALSO   |
+|   ---     |   ---     |   ---     |
+
+//tabella della verità di AND
+
+|   A       |   B       |   A OR B  |
+|   VERO    |   VERO    |   VERO    |
+|   FALSO   |   VERO    |   VERO    |
+|   VERO    |   FALSO   |   VERO    |
+|   FALSO   |   FALSO   |   FALSO   |
+|   ---     |   ---     |   ---     |
+
+|   A       |   NOT A   | 
+|   VERO    |   FALSO   |   
+|   FALSO   |   VERO    |    
+|   ---     |   ---     |   
+
+//tabrlla della verità di NOT
