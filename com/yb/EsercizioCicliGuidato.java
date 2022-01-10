@@ -15,8 +15,8 @@ public class EsercizioCicliGuidato {
         int numero  = scan.nextInt();
         
         for (int x=1; x < numero; x++) {
-            for (int y = x-1; y<numero; y++) {
-                for (int z = y-1; z<numero; z++) {
+            for (int y = x+1; y<numero; y++) {
+                for (int z = y+1; z<numero; z++) {
                     if (x+y+z == numero ) {
                         System.out.println(x + " + "+ y + " + " +z + " = " + numero);
                     }
